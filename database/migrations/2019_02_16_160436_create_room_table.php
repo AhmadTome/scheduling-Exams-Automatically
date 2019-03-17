@@ -17,6 +17,7 @@ class CreateRoomTable extends Migration
             $table->increments('id');
             $table->string('number');
             $table->string('floor');
+            $table->string('college');
             $table->timestamps();
         });
     }
