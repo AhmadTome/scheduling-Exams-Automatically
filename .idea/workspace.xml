@@ -2,26 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3b11533-aa3f-4bdc-b971-2e95823f19e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/Inputs/Edit&amp;Delete/ED_course.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Inputs/Edit&amp;Delete/ED_major.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Inputs/Edit&amp;Delete/ED_room.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Inputs/course.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Inputs/major.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/Inputs/rooms.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/partials/errors.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/partials/success.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_02_16_160436_create_room_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_02_16_160436_create_room_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_02_16_160543_create_course_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_02_16_160543_create_course_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_02_16_160105_create_student_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_02_16_160254_create_department_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_02_16_160607_create_appointment_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_02_16_160623_create_lab_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_02_16_165201_create_day_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Inputs/Edit&amp;Delete/ED_course.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Inputs/Edit&amp;Delete/ED_course.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Inputs/course.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Inputs/course.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,13 +27,15 @@
     <session id="363943340">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.41" value="2" />
+          <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -52,7 +45,7 @@
           <entry key="html" value="2" />
           <entry key="js" value="4" />
           <entry key="json" value="1" />
-          <entry key="php" value="80" />
+          <entry key="php" value="115" />
           <entry key="rnc" value="2" />
           <entry key="scss" value="2" />
           <entry key="vue" value="4" />
@@ -60,12 +53,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="38" />
+          <entry key="Blade" value="51" />
           <entry key="CSS" value="7" />
           <entry key="HTML" value="2" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="4" />
-          <entry key="PHP" value="42" />
+          <entry key="PHP" value="64" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RNG Compact" value="2" />
           <entry key="SCSS" value="2" />
@@ -78,17 +71,17 @@
           <entry key="env" value="8" />
           <entry key="html" value="107" />
           <entry key="js" value="35" />
-          <entry key="php" value="2435" />
+          <entry key="php" value="3534" />
           <entry key="vue" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="1521" />
+          <entry key="Blade" value="2180" />
           <entry key="CSS" value="44" />
           <entry key="HTML" value="107" />
           <entry key="JavaScript" value="35" />
-          <entry key="PHP" value="914" />
+          <entry key="PHP" value="1354" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Vue.js" value="74" />
         </counts>
@@ -97,11 +90,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_16_160543_create_course_table.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="41" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="41" />
+            <state relative-caret-position="272">
+              <caret line="91" column="87" selection-start-line="91" selection-start-column="87" selection-end-line="91" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -109,17 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/Inputs/Edit&amp;Delete/ED_course.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="137" column="18" lean-forward="true" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="18" />
+            <state relative-caret-position="170">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -152,6 +145,8 @@
       <find>assets(</find>
       <find>room</find>
       <find>major</find>
+      <find>.</find>
+      <find>1.1</find>
     </findStrings>
     <replaceStrings>
       <replace>../../public/assets</replace>
@@ -159,6 +154,7 @@
       <replace>.js'}}&quot;</replace>
       <replace>{{assets('</replace>
       <replace>asset(</replace>
+      <replace>,</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\scheduling-Exams-Automatically\resources\sass</dir>
@@ -202,14 +198,22 @@
         <option value="$PROJECT_DIR$/resources/views/Inputs/major.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_02_16_160543_create_course_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_16_191110_add_foreign_key_course_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/Inputs/course.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Inputs.php" />
         <option value="$PROJECT_DIR$/resources/views/Inputs/Edit&amp;Delete/ED_major.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Inputs/Edit&amp;Delete/ED_room.blade.php" />
         <option value="$PROJECT_DIR$/app/course.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/Inputs/course.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/Inputs/Edit&amp;Delete/ED_course.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_183642_create_time_slot_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_192909_add_foreign_keys_course_appointment_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_03_24_185547_create_course_appointment_table.php" />
+        <option value="$PROJECT_DIR$/app/course_appointment.php" />
+        <option value="$PROJECT_DIR$/app/time_slot.php" />
+        <option value="$PROJECT_DIR$/resources/views/Inputs/course_schedule.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/schedule.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
       </list>
     </option>
   </component>
@@ -332,6 +336,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,24 +352,15 @@
             <path>
               <item name="scheduling-Exams-Automatically" type="b2602c69:ProjectViewProjectNode" />
               <item name="scheduling-Exams-Automatically" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scheduling-Exams-Automatically" type="b2602c69:ProjectViewProjectNode" />
               <item name="scheduling-Exams-Automatically" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scheduling-Exams-Automatically" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scheduling-Exams-Automatically" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scheduling-Exams-Automatically" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scheduling-Exams-Automatically" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scheduling-Exams-Automatically" type="b2602c69:ProjectViewProjectNode" />
@@ -408,13 +404,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../product" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UNIVERSITY_SERVICES" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -457,17 +452,20 @@
       <workItem from="1552732162061" duration="1556000" />
       <workItem from="1552734368438" duration="26569000" />
       <workItem from="1552838975915" duration="828000" />
+      <workItem from="1553342151504" duration="525000" />
+      <workItem from="1553352133023" duration="1510000" />
+      <workItem from="1553451960770" duration="7963000" />
+      <workItem from="1553537830735" duration="6257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35327000" />
+    <option name="totallyTimeSpent" value="51582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3161876" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26626325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -480,7 +478,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36497545" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -495,40 +493,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_16_153848_2019_2_16_create_student_table.php.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_16_154015_2019_2_16_create_student_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_16_154042_2019_2_16_create_student_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_16_154125_create_student_table.php.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_16_154906_create_course_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_16_154145_create_student_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_16_160105_create_student_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_16_160623_create_lab_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_16_160607_create_appointment_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -563,13 +527,6 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SinglePageController.php" />
     <entry file="file://$PROJECT_DIR$/resources/js/components/Welcome.vue" />
     <entry file="file://$PROJECT_DIR$/resources/js/components/App.vue" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/landing.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -623,13 +580,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_16_160254_create_department_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_16_160254_create_department_table.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/Inputs/college.blade.php" />
     <entry file="file://$PROJECT_DIR$/app/room.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -665,45 +616,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_16_191110_add_foreign_key_course_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_16_165201_create_day_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Inputs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_16_184814_create_major_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_16_165201_create_day_table.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/Inputs/rooms.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="25" column="18" selection-end-line="59" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_16_160436_create_room_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -714,20 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Inputs/major.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="9" lean-forward="true" selection-end-line="42" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Inputs/course.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="49" column="22" selection-end-line="70" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/course.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -735,38 +638,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
+    <entry file="file://$PROJECT_DIR$/server.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="140" column="65" selection-start-line="140" selection-start-column="65" selection-end-line="140" selection-end-column="65" />
+        <state relative-caret-position="221">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Inputs/Edit&amp;Delete/ED_room.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="61" column="22" lean-forward="true" selection-start-line="61" selection-start-column="22" selection-end-line="68" selection-end-column="30" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_185437_create_course_appointment_table.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Fluent.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_16_160543_create_course_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="41" />
+        <state relative-caret-position="289">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_185547_create_course_appointment_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+        <state relative-caret-position="408">
+          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_183642_create_time_slot_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_24_192909_add_foreign_keys_course_appointment_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_16_184814_create_major_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_16_160436_create_room_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_03_16_191110_add_foreign_key_course_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Inputs/course.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/Inputs/Edit&amp;Delete/ED_course.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="137" column="18" lean-forward="true" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="18" />
+        <state relative-caret-position="-859">
+          <caret line="18" column="105" selection-start-line="18" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Inputs/major.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="26" column="9" lean-forward="true" selection-end-line="42" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Inputs/Edit&amp;Delete/ED_room.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="122" column="10" selection-start-line="122" selection-start-column="10" selection-end-line="135" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/course_appointment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/time_slot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Inputs/course_schedule.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="46" column="74" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="74" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#form#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Inputs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="47" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/schedule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+          <folding>
+            <element signature="e#40#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="91" column="87" selection-start-line="91" selection-start-column="87" selection-end-line="91" selection-end-column="87" />
         </state>
       </provider>
     </entry>

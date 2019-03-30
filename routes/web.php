@@ -17,6 +17,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::get('/logout', 'HomeController@logout');
 Route::get('/home', 'HomeController@index')->name('home');
 
 
@@ -83,3 +84,19 @@ Route::get('/editmajor', function (\Illuminate\Http\Request $request) {
 
 Route::post('addNewMajor','Inputs@addNewMajor');
 // End Major Router
+
+
+Route::prefix('schedule')->group(function () {
+
+    Route::get('add', function () {
+        $course = \App\course::all();
+        $room = \App\room::all();
+       return view('Inputs.course_schedule')->with('course',$course)->with('room',$room);
+    });
+
+    Route::get('GetAvailableTime','schedule@GetAvailableTime');
+
+    Route::post('addCourseToSchedule','schedule@addCourseToSchedule');
+
+
+});

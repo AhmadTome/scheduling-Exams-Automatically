@@ -77,7 +77,7 @@
                              data-lock-picture="{{asset('assets/images/!logged-user.jpg')}}"/>
                     </figure>
                     <div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@JSOFT.com">
-                        <span class="name">John Doe Junior</span>
+                        <span class="name">{{{ isset(Auth::user()->name) ? Auth::user()->name : " " }}}</span>
                         <span class="role">administrator</span>
                     </div>
 
@@ -87,16 +87,9 @@
                 <div class="dropdown-menu">
                     <ul class="list-unstyled">
                         <li class="divider"></li>
+
                         <li>
-                            <a role="menuitem" tabindex="-1" href="pages-user-profile.html"><i class="fa fa-user"></i>
-                                My Profile</a>
-                        </li>
-                        <li>
-                            <a role="menuitem" tabindex="-1" href="#" data-lock-screen="true"><i class="fa fa-lock"></i>
-                                Lock Screen</a>
-                        </li>
-                        <li>
-                            <a role="menuitem" tabindex="-1" href="pages-signin.html"><i class="fa fa-power-off"></i>
+                            <a role="menuitem" tabindex="-1" href="{{ url('/logout') }}"><i class="fa fa-power-off"></i>
                                 Logout</a>
                         </li>
                     </ul>
@@ -128,7 +121,7 @@
 
                             <li class="nav-parent">
                                 <a>
-                                    <i class="fa fa-copy" aria-hidden="true"></i>
+                                    <i class="fa fa-book" aria-hidden="true"></i>
                                     <span>Course</span>
                                 </a>
                                 <ul class="nav nav-children">
@@ -148,7 +141,7 @@
 
                             <li class="nav-parent">
                                 <a>
-                                    <i class="fa fa-copy" aria-hidden="true"></i>
+                                    <i class="fa fa-home" aria-hidden="true"></i>
                                     <span>Room</span>
                                 </a>
                                 <ul class="nav nav-children">
@@ -168,7 +161,7 @@
 
                             <li class="nav-parent">
                                 <a>
-                                    <i class="fa fa-copy" aria-hidden="true"></i>
+                                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
                                     <span>Major</span>
                                 </a>
                                 <ul class="nav nav-children">
@@ -179,6 +172,26 @@
                                     </li>
                                     <li>
                                         <a href="{{url('ED_major')}}">
+                                            Edit & Delete
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
+                            <li class="nav-parent">
+                                <a>
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                    <span>Schedule</span>
+                                </a>
+                                <ul class="nav nav-children">
+                                    <li>
+                                        <a href="{{url('schedule/add')}}">
+                                            Add
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
                                             Edit & Delete
                                         </a>
                                     </li>

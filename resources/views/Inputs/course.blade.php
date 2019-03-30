@@ -34,11 +34,16 @@
                             <div class="col-md-6">
                                 <select class="form-control" name="academic_year" id="academic_year" required>
                                     <option selected disabled="" > -- Select Academic Year Number --</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
+                                    <option value="11">1.1</option>
+                                    <option value="12">1.2</option>
+                                    <option value="21">2.1</option>
+                                    <option value="22">2.2</option>
+                                    <option value="31">3.1</option>
+                                    <option value="32">3.2</option>
+                                    <option value="41">4.1</option>
+                                    <option value="42">4.2</option>
+                                    <option value="51">5.1</option>
+                                    <option value="52">5.2</option>
                                 </select>                            </div>
 
                         </div>
