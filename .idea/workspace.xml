@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3b11533-aa3f-4bdc-b971-2e95823f19e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c3b11533-aa3f-4bdc-b971-2e95823f19e5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,7 @@
           <entry key="html" value="2" />
           <entry key="js" value="4" />
           <entry key="json" value="1" />
-          <entry key="php" value="123" />
+          <entry key="php" value="124" />
           <entry key="rnc" value="2" />
           <entry key="scss" value="2" />
           <entry key="vue" value="4" />
@@ -50,7 +48,7 @@
           <entry key="HTML" value="2" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="4" />
-          <entry key="PHP" value="72" />
+          <entry key="PHP" value="73" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RNG Compact" value="2" />
           <entry key="SCSS" value="2" />
@@ -81,7 +79,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="88" column="3" selection-start-line="88" selection-end-line="101" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -175,9 +183,9 @@
         <option value="$PROJECT_DIR$/app/time_slot.php" />
         <option value="$PROJECT_DIR$/resources/views/Inputs/course_schedule.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/schedule.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -434,15 +442,16 @@
       <workItem from="1554052099424" duration="273000" />
       <workItem from="1554415367454" duration="276000" />
       <workItem from="1554450514844" duration="42000" />
-      <workItem from="1554658232312" duration="428000" />
+      <workItem from="1554658232312" duration="1062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52601000" />
+    <option name="totallyTimeSpent" value="53235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25945538" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -698,13 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -754,6 +756,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="88" column="3" selection-start-line="88" selection-end-line="101" selection-end-column="3" />
         </state>
       </provider>
     </entry>
