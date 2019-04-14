@@ -92,6 +92,12 @@
                             <a role="menuitem" tabindex="-1" href="{{ url('/logout') }}"><i class="fa fa-power-off"></i>
                                 Logout</a>
                         </li>
+                        <li class="divider"></li>
+
+                        <li>
+                            <a role="menuitem" tabindex="-1" href="{{ route('register') }}"><i class="fa fa-user"></i>
+                                add new user</a>
+                        </li>
                     </ul>
                 </div>
             </div>
