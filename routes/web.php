@@ -1,4 +1,5 @@
 <?php
+use App\Http\Controllers\schedule;
 
 /*
 |--------------------------------------------------------------------------
@@ -98,5 +99,15 @@ Route::prefix('schedule')->group(function () {
 
     Route::post('addCourseToSchedule','schedule@addCourseToSchedule');
 
+
+});
+
+Route::prefix('scheduleMaker')->group(function () {
+
+    Route::get('show', function () {
+       return view('Inputs.schedule_maker');
+    });
+    Route::post('make', 'scheduleMaker@generateAutomaticSchedule');
+     
 
 });

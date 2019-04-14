@@ -199,6 +199,26 @@
                                 </ul>
                             </li>
 
+                            <li class="nav-parent">
+                                <a>
+                                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                                    <span>Schedule Maker</span>
+                                </a>
+                                <ul class="nav nav-children">
+                                    <li>
+                                        <a href="{{url('scheduleMaker/show')}}">
+                                            Show
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Edit & Delete
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+
                             <li>
                                 <a href="http://themeforest.net/item/JSOFT-responsive-html5-template/4106987?ref=JSOFT"
                                    target="_blank">
