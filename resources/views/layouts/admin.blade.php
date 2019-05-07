@@ -42,6 +42,7 @@
 
 </head>
 <body>
+<div id="app_data">
 <section class="body">
 
     <!-- start: header -->
@@ -206,23 +207,10 @@
                             </li>
 
                             <li class="nav-parent">
-                                <a>
+                                <a href="{{url('scheduleMaker/show')}}">
                                     <i class="fa fa-calendar" aria-hidden="true"></i>
                                     <span>Schedule Maker</span>
                                 </a>
-                                <ul class="nav nav-children">
-                                    <li>
-                                        <a href="{{url('scheduleMaker/show')}}">
-                                            Show
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Edit & Delete
-                                        </a>
-                                    </li>
-
-                                </ul>
                             </li>
 
                             <li>
@@ -322,5 +310,12 @@
 
 <!-- Examples -->
 <script src="{{asset('assets/javascripts/dashboard/examples.dashboard.js')}}"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</div>
+@yield('footer')
 </body>
 </html>

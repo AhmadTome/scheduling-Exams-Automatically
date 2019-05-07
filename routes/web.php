@@ -1,5 +1,9 @@
 <?php
 use App\Http\Controllers\schedule;
+use App\time_slot;
+use Illuminate\Support\Facades\DB;
+use App\room;
+use App\schedule_maker;
 
 /*
 |--------------------------------------------------------------------------
@@ -104,10 +108,20 @@ Route::prefix('schedule')->group(function () {
 
 Route::prefix('scheduleMaker')->group(function () {
 
-    Route::get('show', function () {
-       return view('Inputs.schedule_maker');
-    });
-    Route::post('make', 'scheduleMaker@generateAutomaticSchedule');
-     
+    Route::get('show', 'scheduleMaker@show');
+    Route::get('showAJAX', 'scheduleMaker@showAJAX');
+    Route::get('generate', 'scheduleMaker@show');
+    Route::post('generate', 'scheduleMaker@generate');
+    Route::post('insert', 'scheduleMaker@insert');
+    Route::get('insert', 'scheduleMaker@show');
+    Route::get('search', 'scheduleMaker@search');
+    Route::post('search', 'scheduleMaker@search');
+    Route::get('delete', 'scheduleMaker@show');
+    Route::post('delete', 'scheduleMaker@delete');
+
+
+
+
+
 
 });
