@@ -5,7 +5,7 @@
     <!-- Basic -->
     <meta charset="UTF-8">
 
-    <title>Dashboard | JSOFT Themes | JSOFT-Admin</title>
+    <title>scheduling-exams-automatically</title>
     <meta name="keywords" content="HTML5 Admin Template"/>
     <meta name="description" content="JSOFT Admin - Responsive HTML5 Template">
     <meta name="author" content="JSOFT.net">
@@ -60,6 +60,7 @@
         <!-- start: search & user box -->
         <div class="header-right">
 
+            <!--
             <form action="pages-search-results.html" class="search nav-form">
                 <div class="input-group input-search">
                     <input type="text" class="form-control" name="q" id="q" placeholder="Search...">
@@ -68,7 +69,7 @@
 							</span>
                 </div>
             </form>
-
+            -->
             <span class="separator"></span>
 
             <div id="userbox" class="userbox">
@@ -213,6 +214,7 @@
                                 </a>
                             </li>
 
+                            <!--
                             <li>
                                 <a href="http://themeforest.net/item/JSOFT-responsive-html5-template/4106987?ref=JSOFT"
                                    target="_blank">
@@ -220,6 +222,7 @@
                                     <span>Front-End <em class="not-included">(Not Included)</em></span>
                                 </a>
                             </li>
+                            -->
                         </ul>
                     </nav>
 
@@ -234,16 +237,11 @@
 
         <section role="main" class="content-body">
             <header class="page-header">
-                <h2>Dashboard</h2>
+                <h2></h2>
 
                 <div class="right-wrapper pull-right" style="margin-right: 10px;">
                     <ol class="breadcrumbs">
-                        <li>
-                            <a href="index.html">
-                                <i class="fa fa-home"></i>
-                            </a>
-                        </li>
-                        <li><span>Dashboard</span></li>
+
                     </ol>
 
                 </div>
