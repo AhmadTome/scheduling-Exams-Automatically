@@ -165,12 +165,17 @@ class scheduleMaker extends Controller
         }
     }
 
-    private function getDatesBetween($start_date, $end_date, $vacation_dates=[]){
+    private function getDatesBetween($start_date, $end_date, $vacation_dates=[], $ignoreSat=true){
         $array_dates = array();
         $index = 0;
         for($i = $start_date; $i <= $end_date; $i = $i + 86400){
-            if(date('w', $i) == 5 || date('w', $i) == 6) {
+            if(date('w', $i) == 5) {
                 continue;
+            }
+            if($ignoreSat){
+                if(date('w', $i) == 6) {
+                    continue;
+                }
             }
             if(in_array(date("Y-m-d", $i), $vacation_dates)){
                 continue;
@@ -249,7 +254,7 @@ class scheduleMaker extends Controller
             }else{
                 $end_date = strtotime($end_date);
             }
-            $array_dates = $this->getDatesBetween(strtotime($curr_date), $end_date);
+            $array_dates = $this->getDatesBetween(strtotime($curr_date), $end_date, [], false);
             $curr_date = $array_dates[0];
         }
         foreach($rooms as $rm){
@@ -262,7 +267,8 @@ class scheduleMaker extends Controller
         // Get all courses.
         $courses = course::all();
         $majors = major::all();
-       return compact('array_dates', 'curr_date', 'time_slots', 'rooms_info', 'courses', 'majors', 'rooms');
+        $num_of_exams = schedule_maker::whereBetween('exam_date', [$array_dates[0], $array_dates[count($array_dates) - 1]])->distinct('exam_date')->count('exam_date');
+       return compact('array_dates', 'curr_date', 'time_slots', 'rooms_info', 'courses', 'majors', 'rooms', 'num_of_exams');
     }
 
     function debug_to_console( $data ) {
@@ -350,11 +356,10 @@ class scheduleMaker extends Controller
         if($request->vacation_dates != null && trim($request->vacation_dates) != ''){
             $vacation_dates = explode(',', trim($request->vacation_dates));
         }
-        if($request->submit_show != null){
-            $array_dates = $this->getDatesBetween(strtotime($request->start_date), strtotime($request->end_date), $vacation_dates);
-        }else{
+        if($request->submit_show == null){
             $array_dates = $this->getCoursesMultipleSections($request->start_date, $request->end_date, $vacation_dates);
         }
+        $array_dates = $this->getDatesBetween(strtotime($request->start_date), strtotime($request->end_date), $vacation_dates, false);
         return view('Inputs.schedule_maker', $this->getScheduleForSpecificDate($array_dates[0], $array_dates, false, $array_dates[count($array_dates) - 1]));
         /*$data = DB::table('schedule_maker')
                     ->join('course', 'schedule_maker.course_id', '=', 'course.id')

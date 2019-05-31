@@ -3,6 +3,7 @@
             <h2 class="panel-title">Schedule Maker</h2>
         </header>
         <div class="panel-body">
+            <h2 class="panel-title center text-center text-success">Number of exams days is <span class="text-danger">{{ $num_of_exams }}</span></h2>
             <table class="table">
                     <div class="col-md-12">
                             <div class="col-md-3 center ">

@@ -23,13 +23,24 @@
                     </div>
 
                     <div class="form-group">
-                        <label class="col-md-2 control-label">Vacation Dates :</label>
-
+                        <label class="col-md-2 control-label">Vacation Date :</label>
                         <div class="col-md-6">
-                            <input type="text" class="form-control" name="vacation_dates" id="vacation_dates" placeholder="Vacation Dates, Please separate them by a comma ,">
+                            <input type="date" class="form-control" name="vacation" id="vacation_date" value="{{ date('Y-m-d') }}">
+                        </div>
+                        <div class="col-md-3">
+                            <input type="button" class="form-control btn btn-success" name="add_vacation_date" id="add_vacation_date" value="Add vacation date"/>
                         </div>
                     </div>
-
+                    <div class="form-group">
+                        <label class="col-md-2 control-label">Vacation Dates :</label>
+                        <div class="col-md-6">
+                            <input type="hidden" class="form-control" name="vacation_dates" id="vacation_dates" placeholder="Vacation Dates" value="">
+                            <input type="text" class="form-control" name="vacs" id="vacation_dates_show" placeholder="Vacation Dates" value="" disabled>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="button" class="form-control btn btn-warning" name="clear_vacation_date" id="clear_vacation_date" value="Clear dates"/>
+                        </div>
+                    </div>
                     <div class="form-group ">
                         <div class="col-lg-7 text-center pull-right"style="margin-top: 15px">
                             <input type="hidden" name="remove_schedule" id="remove_schedule" value="0" />
@@ -166,6 +177,23 @@
                 }
             });
 
+        })
+
+        $("#clear_vacation_date").on("click", function () {
+            $("#vacation_dates").val("");
+            $("#vacation_dates_show").val("");
+        })
+
+        $("#add_vacation_date").on("click", function () {
+            var vacation_date = $("#vacation_date").val();
+            var vacations_val = $("#vacation_dates").val();
+            if(vacations_val === ""){
+                $("#vacation_dates").val(vacation_date)
+                $("#vacation_dates_show").val(vacation_date)
+            }else{
+                $("#vacation_dates").val(vacations_val + "," + vacation_date)
+                $("#vacation_dates_show").val(vacations_val + "," + vacation_date)
+            }
         })
     });
 
