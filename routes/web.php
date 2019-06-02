@@ -119,9 +119,5 @@ Route::prefix('scheduleMaker')->group(function () {
     Route::get('delete', 'scheduleMaker@show');
     Route::post('delete', 'scheduleMaker@delete');
 
-
-
-
-
-
+    Route::get('printTable','scheduleMaker@print');
 });

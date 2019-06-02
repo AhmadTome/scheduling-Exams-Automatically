@@ -1,9 +1,20 @@
 <section class="panel">
         <header class="panel-heading">
-            <h2 class="panel-title">Schedule Maker</h2>
+            <h2 class="panel-title">Schedule Maker
+                <form id="printSchedule" method="get" action="{{url('scheduleMaker/printTable')}}">
+                    <div class="pull-right col-sm-3">
+                        <button type="submit" class="btn btn-primary" style="width: 150px;margin-top: -6px;">
+                            Preview
+                        </button>
+                    </div>
+                </form>
+
+            </h2>
         </header>
         <div class="panel-body">
-            <table class="table">
+            <h2 class="panel-title center text-center text-success">Number of exams days is <span class="text-danger">{{ $num_of_exams }}</span>
+                </h2>
+            <table class="table" id="scheduleTable">
                     <div class="col-md-12">
                             <div class="col-md-3 center ">
                                     <input type="hidden" id="next_prev" name="next" value="false" />
@@ -259,6 +270,8 @@
                 });
 
         })
+
+
     })
 </script>
 
